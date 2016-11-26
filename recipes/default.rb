@@ -4,12 +4,12 @@
 #
 # Author: welps 
 #
-# The checksum must be set manually to the checksum of your distribution at http://nodejs.org/dist/v5.5.0/SHASUMS256.txt
+# The checksum must be set manually to the checksum of your distribution at http://nodejs.org/dist/v6.9.1/SHASUMS256.txt
 # Due to broken upstream dependency: https://github.com/redguide/nodejs/issues/61
 
 node.set['nodejs']['install_method'] = 'binary'
-node.set['nodejs']['version'] = '5.5.0'
-node.set['nodejs']['binary']['checksum']='3e593d91b6d2ad871efaaf8e9a17b3608ca98904959bcfb7c42e6acce89e80f4'
+node.set['nodejs']['version'] = '6.9.1'
+node.set['nodejs']['binary']['checksum']='a9d9e6308931fa2a2b0cada070516d45b76d752430c31c9198933c78f8d54b17'
 
 include_recipe "nodejs"
 include_recipe "nodejs::npm"

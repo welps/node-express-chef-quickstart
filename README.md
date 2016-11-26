@@ -1,12 +1,12 @@
 node-express-chef-quickstart Cookbook
 ========================
 
-Installs Node 5.5.0, NPM, Express, async, and mocha packages.
+Installs Node 6.9.1, NPM, Express, async, and mocha packages.
 
 Requirements
 ------------
 
-You must set the checksum that matches your binary at http://nodejs.org/dist/v5.5.0/SHASUMS256.txt in recipes/default.rb.
+You must set the checksum that matches your binary at http://nodejs.org/dist/v6.9.1/SHASUMS256.txt in recipes/default.rb.
 
 Issue lies with upstream dependency: https://github.com/redguide/nodejs
 
