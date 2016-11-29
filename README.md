@@ -20,7 +20,8 @@ Installation to Chef Server
 Use with Vagrant
 ------------
 
-1. Make sure you've installed the Vagrant berkshelf plugin
+1. Make sure you've installed the Vagrant chef-omnibus and berkshelf plugins
+`vagrant plugin install vagrant-omnibus`
 `vagrant plugin install vagrant-berkshelf`
 
 2. Run `vagrant up`
